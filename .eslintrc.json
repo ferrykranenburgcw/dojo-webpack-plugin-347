@@ -1,0 +1,47 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2021
+  },
+  "rules": {
+    // Override our default settings just for this directory
+    "eqeqeq": 0,
+    "strict": 0,
+    "linebreak-style": 0,
+    // Attributes on new lines
+    "vue/max-attributes-per-line": [
+      "error",
+      {
+        "singleline": {
+          "max": 3,
+          "allowFirstLine": true
+        },
+        "multiline": {
+          "max": 1,
+          "allowFirstLine": true
+        }
+      }
+    ],
+    // let us use @ts-ignore
+    "@typescript-eslint/ban-ts-ignore": 0,
+    // This is problematic in refactoring withing Intellij
+    "vue/attribute-hyphenation": 0,
+    // We use v-html
+    "vue/no-v-html": 0,
+    // Disable self-closing tags
+    "vue/html-self-closing": 0,
+    // We do not care about the order strictly
+    "vue/component-tags-order": 0
+  },
+
+  "extends": [
+    "plugin:vue/recommended",
+    "prettier/prettier"
+  ]
+}
+

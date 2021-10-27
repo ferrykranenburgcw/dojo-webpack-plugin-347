@@ -1,0 +1,29 @@
+.idea/artifacts
+*.ipr
+.idea/*
+*.iml
+out
+gen
+
+
+
+### AuditCase ###
+**/bin/
+**/target/
+!/AuditCaseMaven/resources/targetPlatform
+**/node_modules/
+
+## AuditCase web resources ##
+/**/tscompiled/
+/**/junit.xml
+/**/webpack/*.css
+/**/webpack/*.js
+/**/webpack/*.map
+/**/webpack/*.txt
+/**/webpack/*.html
+/**/webpack/dist/
+/**/webpack/hot/
+/**/webpack/playwright-results/
+/**/webpack/vue-test-results/
+!/**/webpack/dojo/
+!/**/webpack/fonts/

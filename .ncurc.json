@@ -1,0 +1,7 @@
+{
+    "upgrade": true,
+    "reject": [
+        "bootstrap",
+        "css-loader"
+    ]
+}

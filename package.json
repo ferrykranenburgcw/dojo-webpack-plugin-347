@@ -1,0 +1,79 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "AuditCase NPM package file",
+  "main": "auditcase.js",
+  "keywords": [],
+  "author": "Change to Comm (AuditCase)",
+  "license": "UNLICENSED",
+  "private": true,
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=7.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "cacheDirectories": [
+    "node_modules"
+  ],
+  "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.15.8",
+    "@babel/polyfill": "^7.12.1",
+    "bootstrap": "4.6.0",
+    "core-js": "^3.19.0",
+    "dijit": "1.16.4",
+    "dojo": "1.16.4",
+    "dojo-dstore": "1.2.1",
+    "dojo-util": "1.16.4",
+    "dojox": "1.16.4",
+    "es6-promise": "^4.2.8"
+  },
+  "scripts": {
+    "dev": "webpack serve --config webpack.dev.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/plugin-proposal-class-properties": "^7.14.5",
+    "@babel/plugin-proposal-decorators": "^7.15.8",
+    "@babel/plugin-proposal-json-strings": "^7.14.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.15.6",
+    "@babel/plugin-syntax-dynamic-import": "~7.8",
+    "@babel/plugin-syntax-import-meta": "^7.10.4",
+    "@babel/plugin-transform-arrow-functions": "^7.14.5",
+    "@babel/plugin-transform-object-assign": "^7.14.5",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-typescript": "^7.15.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^27.3.1",
+    "babel-loader": "^8.2.3",
+    "cross-env": "^7.0.3",
+    "css-loader": "5.2.6",
+    "css-minimizer-webpack-plugin": "^3.1.1",
+    "dojo-typings": "^1.11.11",
+    "dojo-webpack-plugin": "3.0.2",
+    "expose-loader": "3.1.0",
+    "file-loader": "6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "lightercollective": "^0.3.1",
+    "mini-css-extract-plugin": "^2.4.3",
+    "node-sass": "6.0.1",
+    "postcss-loader": "^6.2.0",
+    "raw-loader": "^4.0.2",
+    "sass": "^1.43.3",
+    "sass-loader": "12.2.0",
+    "style-loader": "3.3.1",
+    "terser-webpack-plugin": "^5.2.4",
+    "ts-jest": "27.0.7",
+    "typescript": "^4.4.4",
+    "url-loader": "4.1.1",
+    "webpack": "5.60.0",
+    "webpack-build-notifier": "2.3.0",
+    "webpack-bundle-analyzer": "^4.5.0",
+    "webpack-cli": "4.9.1",
+    "webpack-dev-server": "4.3.1",
+    "webpack-i18n-extractor-plugin": "2.0.7",
+    "webpack-merge": "5.8.0"
+  }
+}
